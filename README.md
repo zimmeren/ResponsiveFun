@@ -1,13 +1,19 @@
-# Sell Them Cars
+# Responsive Fun
 
-A single page car sales customizable website built on a Angular w/ TypeScript frontend, NodeJS Express backend, Dynano database, and ready for deployment to AWS.  
-Built with a responsive design to allow both mobile and desktop viewing using flexbox.
+Purpose was to build a website with a focus on content responsiveness so that content would be optimal size on any device from mobile to large monitor. The idea was to utilize as much real screen real estate as possible and not leave the usual gutters.
+To accomplish this flexbox and percent based sizing was heavily used. 
 
-Site can be personalized by modifying strings in the "configuration.service.ts" file. 
+Forked from https://github.com/zimmeren/Sell-Them-Cars before frontend overhall to use material components.
 
-VERSION 2.0.0
+VERSION 1.0.0
 
-Angular 6.2.3
+Angular 7.0.0
+
+# Example Screenshots
+
+Desktop Size: https://postimg.cc/McH2SyGd
+
+Mobile Size: https://postimg.cc/5HrcN6Y1
 
 # Setup 
 
@@ -21,25 +27,4 @@ in project folder run "npm install" to install all npm dependencies
 
 Run Instructions:
 in project folder run "ng serve" on command line to build the frontend and deploy to dist folder
-in project folder run "node server.js" to start the node.js express server
-in Browser open "http://localhost:3000/"
-
-Adding Assets:
-pictures can be added to src/assets/images
-pictures then need to be referenced from "configuration.service.ts" file 
-or
-add car pictures to src/assets/images/cars
-pictures in here need to be reference in database "pictures" array. First image in array will be shown as main image. 
-
-# TODO
-Vehicle Page - a single page for each vehicle with more information
-Image Viewer - scalable image viewer that can be used on both homepage for featured cars and in vehicle inventory to view more pictures
-Routes - add angular routes ability so users can load pages via URLs instead of always landing on homepage
-PDF - on its vehicle page have a button that allows them to download a PDF document with the details of their vehicle
-ADMIN Database and files - create database administration page with password security for opening and every modification
-Token security - extend security of admin page to be able to be token based so password does not need to be input everytime
-Caching - caching for offline viewing
-SEO - search engine optimization
-Contact Us Form - on page email contact form
-User Analytics - track users on site to gain insights on products and customers
-UI Enhancements - picture for nav header, tabs highlight on hover, tabs colored when selected, adjust responsive sizing, etc. 
+in browser open "http://localhost:3000/" or whatever port your console says
