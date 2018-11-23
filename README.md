@@ -9,6 +9,10 @@ VERSION 1.0.0
 
 Angular 7.0.0
 
+# Deployment
+
+Static deployment to Github Pages: https://zimmeren.github.io/ResponsiveFun/
+
 # Example Screenshots
 
 Desktop Size: https://postimg.cc/McH2SyGd

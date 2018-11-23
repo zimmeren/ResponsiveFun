@@ -15,7 +15,7 @@ export class ConfigurationService {
       ' More text here. More text here. More text here. More text here. More text here. More text here.' +
       ' More text here. More text here. More text here. More text here. More text here. More text here.' +
       ' More text here. More text here. More text here. More text here. More text here. More text here.';
-    readonly aboutImage: string = '../assets/images/family-2145302_1280.png';
+    readonly aboutImage: string = 'assets/images/family-2145302_1280.png';
 
     // Contact Screen Values
     readonly contactHeader: string = 'Contact Information';
@@ -26,7 +26,7 @@ export class ConfigurationService {
     readonly locationHeader: string = 'Location';
     readonly locationText1: string = 'Come visit us and see our selection in person. ';
     readonly locationText2: string = '0000 Tester Ave N TesterVille, test';
-    readonly locationImage: string = '../assets/images/architecture-107598_1280.jpg';
+    readonly locationImage: string = 'assets/images/architecture-107598_1280.jpg';
     readonly locationLat: number = 44.977753;
     readonly locationLng: number = -93.265011;
 
