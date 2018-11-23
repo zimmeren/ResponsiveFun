@@ -14,16 +14,6 @@ export class LocationComponent implements OnInit {
   constructor(public configurationService: ConfigurationService) { }
 
   ngOnInit() {
-    const mapProp = {
-      center: new google.maps.LatLng(this.configurationService.locationLat, this.configurationService.locationLng),
-      zoom: 15,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    const map = new google.maps.Map(document.getElementById('gmap'), mapProp);
-    const marker = new google.maps.Marker({
-            position: new google.maps.LatLng(this.configurationService.locationLat, this.configurationService.locationLng),
-            map: map
-    });
   }
 
 }
