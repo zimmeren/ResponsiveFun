@@ -10,7 +10,7 @@ import { ConfigurationService } from './../configuration.service';
 })
 export class PortalComponent implements OnInit {
 
-  constructor(private viewManagerService: ViewManagerService, private configurationService: ConfigurationService) { }
+  constructor(public viewManagerService: ViewManagerService, public configurationService: ConfigurationService) { }
 
   ngOnInit() {
   }

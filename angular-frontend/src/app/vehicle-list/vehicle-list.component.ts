@@ -10,7 +10,7 @@ export class VehicleListComponent implements OnInit {
 
   inventory: object;
 
-  constructor(private inventoryService: InventoryService) { }
+  constructor(public inventoryService: InventoryService) { }
 
   getInventory(): void {
     this.inventory = this.inventoryService.getInventory();

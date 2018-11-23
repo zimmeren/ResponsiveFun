@@ -11,7 +11,7 @@ declare var google: any;
 })
 export class LocationComponent implements OnInit {
 
-  constructor(private configurationService: ConfigurationService) { }
+  constructor(public configurationService: ConfigurationService) { }
 
   ngOnInit() {
     const mapProp = {

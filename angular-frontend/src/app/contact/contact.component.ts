@@ -9,7 +9,7 @@ import { ConfigurationService } from './../configuration.service';
 })
 export class ContactComponent implements OnInit {
 
-  constructor(private configurationService: ConfigurationService) { }
+  constructor(public configurationService: ConfigurationService) { }
 
   ngOnInit() {
   }

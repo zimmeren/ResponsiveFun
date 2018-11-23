@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class VehicleComponent implements OnInit {
 
-  @Input() vehicle: object;
+  @Input() vehicle;
 
   constructor() { }
 

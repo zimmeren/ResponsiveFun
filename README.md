@@ -1,6 +1,6 @@
 # Responsive Fun
 
-Purpose was to build a website with a focus on content responsiveness so that content would be optimal size on any device from mobile to large monitor. The idea was to utilize as much real screen real estate as possible and not leave the usual gutters.
+Purpose was to build a website from custom components with a focus on responsiveness so that content would be optimal size on any device from mobile to large monitors. The idea was to utilize as much screen real estate as possible and avoid the common gutter approach.
 To accomplish this flexbox and percent based sizing was heavily used. 
 
 Forked from https://github.com/zimmeren/Sell-Them-Cars before frontend overhall to use material components.

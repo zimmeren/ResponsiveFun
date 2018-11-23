@@ -11,7 +11,7 @@ import { ViewManagerService } from './../view-manager.service';
 
 export class ContentComponent implements OnInit {
 
-  constructor(private viewManagerService: ViewManagerService) { }
+  constructor(public viewManagerService: ViewManagerService) { }
 
   ngOnInit() {
     this.viewManagerService.setHomeViews();
